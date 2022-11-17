@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YT-title-change",
+  "permissions": ["contextMenus", "tabs"],
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["script.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": "favicon.png"
+  },
+  "description": "Changes YouTube titles",
+  "version": "1.0"
+}

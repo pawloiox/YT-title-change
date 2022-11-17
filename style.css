@@ -1,0 +1,6 @@
+#title h1 yt-formatted-string {
+  display: none;
+}
+#title h1 yt-formatted-string.disp {
+  display: block;
+}
